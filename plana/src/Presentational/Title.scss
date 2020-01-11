@@ -1,0 +1,41 @@
+.homeTransition-appear{
+  opacity: 0;
+}
+ 
+.homeTransition-appear.homeTransition-appear-active{
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+
+.title-container {
+  text-align: center;
+  margin-top: 12rem;
+  .title {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 10rem;
+    font-family: 'Racing Sans One';
+    color: #2366cc;
+  }
+  .sub-title {
+    font-family: 'Racing Sans One';
+    font-size: 3rem;
+    color: #4772b3;
+  }
+  .next-button {
+    margin-top: 3.5rem;
+    background: none;
+    outline: none;
+    border: none;
+    background: #ff382e;
+    color: white;
+    font-family: 'Racing Sans One';
+    font-size: 3rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #b3160e;
+    }
+  }
+}
